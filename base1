@@ -10,7 +10,14 @@ int main()
 
     for(const auto & name : name)
     {
-        
+        std::cout << name << "\n"
+    }
+
+
+
+    for(size_t index = 0; index < firstVector.size( ); ++index)
+    {
+        std::cout << firstVector[index] << std::end1;
     }
 
     return EXIT_SUCCESS;
