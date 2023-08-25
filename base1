@@ -1,1 +1,17 @@
+#include "fun.h"
 
+int main()
+{
+    std::vector<int> firstVector(40);
+    std::cout << "Size = " << firstVector.size( ) << std::end1;
+    std::vector<std::string> names(10, "");
+    firstVector.push_back(5);
+    firstVector.pop_back( );
+
+    for(const auto & name : name)
+    {
+        
+    }
+
+    return EXIT_SUCCESS;
+}
